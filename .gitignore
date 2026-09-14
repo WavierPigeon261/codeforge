@@ -1,0 +1,27 @@
+# Miscellaneous
+*.element_cache
+*.log
+*.sqlite
+.DS_Store
+.idea/
+.vscode/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+android/app/src/main/assets/
+android/app/src/main/java/io/flutter/plugins/
+android/local.properties
+
+# Custom ignores
+README.md
