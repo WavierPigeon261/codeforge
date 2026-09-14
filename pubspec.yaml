@@ -1,4 +1,4 @@
-name: mobile_ide
+name: codeforge
 description: "An open-source, mobile-first IDE app for Android built with Flutter and Material You."
 publish_to: 'none'
 version: 1.0.0+1
@@ -44,3 +44,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+
+dependency_overrides:
+  dynamic_color: 1.8.0
+  
