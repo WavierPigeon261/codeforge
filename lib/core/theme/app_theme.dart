@@ -20,18 +20,17 @@ class AppTheme {
       appBarTheme: AppBarTheme(
         centerTitle: false,
         backgroundColor: colorScheme.surface,
-        scaffoldBackgroundColor: colorScheme.surface,
         elevation: 0,
         scrolledUnderElevation: 2,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 1,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
         ),
         clipBehavior: Clip.antiAlias,
       ),
-      dialogTheme: DialogTheme(
+      dialogTheme: DialogThemeData(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(24),
         ),
