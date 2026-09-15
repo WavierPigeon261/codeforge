@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile_ide/core/models/project_model.dart';
-import 'package:mobile_ide/core/state/app_state.dart';
+import 'package:codeforge/core/models/project_model.dart';
+import 'package:codeforge/core/state/app_state.dart';
 
 void main() {
   group('AppStateNotifier Unit Tests', () {
