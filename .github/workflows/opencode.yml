@@ -38,7 +38,7 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         with:
-          model: openrouter/qwen/qwen3-coder:free
+          model: openrouter/qwen/qwen3-coder-30b-a3b-instruct
           prompt: |
             You are a self-healing CI agent. Do the following:
             1. Read the failed workflow logs and identify the exact error.
