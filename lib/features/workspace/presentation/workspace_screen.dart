@@ -192,7 +192,7 @@ class _WorkspaceScreenState extends State<WorkspaceScreen> {
       ),
 
       // Material 3 NavigationBar for Panel Switching
-      navigationBar: NavigationBar(
+      bottomNavigationBar: NavigationBar(
         selectedIndex: appState.activePanel.index,
         onDestinationSelected: (index) {
           appState.setActivePanel(WorkspacePanel.values[index]);
