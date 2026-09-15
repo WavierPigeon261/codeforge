@@ -43,8 +43,7 @@ jobs:
             You are a self-healing CI agent. Do the following:
             1. Read the failed workflow logs and identify the exact error.
             2. Read the relevant source files to understand the root cause.
-            3. Fix the code (do NOT skip tests or disable checks).
-            4. Verify the fix compiles/builds locally.
-            5. Create a branch `fix/ci-<short-desc>` and commit the fix.
-            6. Open a PR labeled `automated` and `ci-fix` with a clear explanation.
-            If the failure is transient (network, rate-limit, flaky infra), just comment explaining why no fix is needed.   
+            3. Fix the code directly in the files (do NOT skip tests or disable checks).
+            4. Do NOT run git commands. Do NOT create branches. Do NOT commit.
+               Just edit the files and leave the changes uncommitted.
+            If the failure is transient (network, rate-limit, flaky infra), just explain why no fix is needed.      
